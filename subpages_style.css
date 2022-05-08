@@ -1,0 +1,39 @@
+#table_content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.infobox {
+    border-collapse: collapse;
+    margin: 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table_header {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.infobox thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.infobox th,
+.infobox td {
+    padding: 12px 15px;
+}
+
+.infobox tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.infobox tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
